@@ -1,0 +1,16 @@
+{
+    "name": "usha/helloworld",
+    "description": "this is my first package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "udharpure",
+            "email": "udharpure@xento.com"
+        }
+    ],
+    "minimum-stability": "stable",
+	 "autoload": {
+        "psr-4": {"usha\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
